@@ -1,4 +1,4 @@
-FROM node:11.14.0-stretch
+FROM node:12.18-stretch
 
 RUN npm install -g @angular/cli@10.0.6 && \
     apt-get update && \
