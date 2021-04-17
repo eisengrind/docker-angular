@@ -1,5 +1,5 @@
-FROM node:12.18-stretch
+FROM node:15.14.0-buster-slim
 
-RUN npm install -g @angular/cli@10.0.6 && \
+RUN npm install -g @angular/cli@11.2.9 && \
     apt-get update && \
     apt-get install -y parallel
