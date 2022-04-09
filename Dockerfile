@@ -1,5 +1,3 @@
-FROM node:15.14.0-buster-slim
+FROM node:17-alpine3.14
 
-RUN npm install -g @angular/cli@11.2.14 && \
-    apt-get update && \
-    apt-get install -y parallel
+RUN npm install -g @angular/cli@13.3.2
