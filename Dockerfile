@@ -1,3 +1,3 @@
-FROM node:17-alpine3.14
+FROM node:18-alpine3.16
 
-RUN npm install -g @angular/cli@13.3.2
+RUN npm install -g @angular/cli@14.0.4
